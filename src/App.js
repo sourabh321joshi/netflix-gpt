@@ -1,11 +1,8 @@
-import './App.css';
-
+import Body from "./components/Body";
 function App() {
   return (
-    <div className="font-bold ">
-     <p>Namaste react</p>
-    </div>
-  );
+   <Body/>
+);
 }
 
 export default App;
