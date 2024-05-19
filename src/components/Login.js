@@ -38,7 +38,6 @@ const Login = () => {
     }).catch((error) => {
       seterrorMessage(error.message);
     });
-    console.log(user);
     // ...
   })
   .catch((error) => {
